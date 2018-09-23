@@ -1,10 +1,6 @@
-lab1b-client.c: This implements the client in C using TCP sockets.
-
 lab1b-server.c: This implements the server in C using TCP sockets and using
 shell pipes to forward client input to the shell which is then run using
 /bin/bash which is loaded in using execvp.
-
-Makefile: supports default, make, clean and dist 
 
 Used zlib for compression.
 Used Sockets for TCP networking and communication. 
